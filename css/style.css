@@ -1,0 +1,26 @@
+body{
+    background-color: rgba(255, 255, 255, 1);
+    font-family: "Roboto", sans-serif;
+}
+header{
+    height: 72px;
+}
+.title{
+    font-size: 56px;
+    letter-spacing: 2%;
+    line-height: 60px;
+}
+.service{
+    height: 56px;
+    width: 169px;
+    border-radius: 4px;
+    background: rgba(77, 90, 229, 1);
+    padding: 16px, 32px, 16px, 32px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 4%;
+}
+.service:hover{
+    background: rgba(64, 75, 191, 1);
+
+}
