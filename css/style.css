@@ -8,7 +8,10 @@ header{
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    border-bottom: 1px solid #e7e9fc ;
+    border-bottom: 1px solid #e7e9fc;
+    width: 1158px;
+    margin: 0, auto;
+    padding: 0 15px;
 }
 .menu{
     display: flex;
@@ -19,8 +22,9 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 25px;
+    gap: 40px;
     list-style-type: none;
+    margin-right: 76px;
 }
 .nav-link{
     text-decoration: none;
@@ -28,6 +32,7 @@ header{
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 2%;
+    padding: 24px 0;
 }
 .nav-link:hover{
     color: rgba(64, 75, 191, 1);
@@ -44,6 +49,7 @@ header{
     text-decoration: none;
     color: rgba(46, 47, 66, 1);
     font-size: 24px;
+    margin-right: 76px;
 }
 .web-logo{
     color: rgba(77, 90, 229, 1);
@@ -74,7 +80,7 @@ header{
 }
 .address-menu{
     display: flex;
-    gap: 12px;
+    gap: 40px;
     list-style-type: none;
 }
 .address-menu :hover{
