@@ -68,7 +68,7 @@ header{
     line-height: 24px;
     letter-spacing: 4%;
 }
-.service :hover{
+.service:hover{
     background-color: rgba(64, 75, 191, 1);
 }
 .address-menu{
