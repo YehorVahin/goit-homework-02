@@ -2,16 +2,19 @@ body{
     background-color: rgba(255, 255, 255, 1);
     font-family: "Roboto", sans-serif;
 }
-.header{
+header{
     height: 72px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     border-bottom: 1px solid #e7e9fc;
-    width: 1158px;
     margin: 0, auto;
     padding: 0 15px;
+}
+.container{
+    width: 1158px;
+    display: flex;
 }
 .menu{
     display: flex;
@@ -26,7 +29,7 @@ body{
     list-style-type: none;
     margin-right: 76px;
 }
-.menu-link{
+.menu-link a{
     text-decoration: none;
     color: rgba(46, 47, 66, 1);
     font-size: 16px;
@@ -34,7 +37,7 @@ body{
     letter-spacing: 2%;
     padding: 24px 0;
 }
-.menu-link:hover{
+.menu-link a:hover{
     color: rgba(64, 75, 191, 1);
 }
 .nav-link:active{
