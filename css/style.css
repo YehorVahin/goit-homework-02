@@ -28,10 +28,10 @@ header{
     line-height: 24px;
     letter-spacing: 2%;
 }
-.nav-link :hover{
+.nav-link:hover{
     color: rgba(64, 75, 191, 1);
 }
-.menu-link :active{
+.menu-link:active{
     text-decoration: underline;
 }
 .contact-link{
