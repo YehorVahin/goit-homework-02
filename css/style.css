@@ -103,6 +103,7 @@ header{
     align-items: center;
     border-radius: 0 0 4px 4px;
     background: rgba(255, 255, 255, 1);
+    flex-basis: calc((100% - 72px) / 4);
 }
 .team-title{
     font-size: 36px;
@@ -153,6 +154,7 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 120px 0
 }
 .name{
     text-align: center;
