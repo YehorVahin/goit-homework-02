@@ -103,7 +103,7 @@ header{
     align-items: center;
     border-radius: 0 0 4px 4px;
     background: rgba(255, 255, 255, 1);
-    flex-basis: calc((100% - 72px) / 4);
+    width: calc((100% - 72px) / 4);
 }
 .team-title{
     font-size: 36px;
