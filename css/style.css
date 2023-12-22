@@ -90,19 +90,11 @@ header{
 .address :hover{
     color: rgba(64, 75, 191, 1);
 }
-.team{
-    background: rgba(244, 244, 253, 1);
-    height: 732px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 .card-menu{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 15px;
+    gap: 24px;
 }
 .card{
     display: flex;
@@ -114,6 +106,7 @@ header{
 }
 .team-title{
     font-size: 36px;
+    margin-bottom: 72px;
 }
 .title-text{
     color: white;
@@ -152,4 +145,12 @@ header{
 }
 .footer-container{
     margin-left: 156px;
+}
+.section-team{
+    background: rgba(244, 244, 253, 1);
+    height: 732px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
