@@ -8,7 +8,7 @@ header{
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    border-bottom: 1px solid #e7e9fc;
+    border-bottom: 1px solid rgba(231, 233, 252, 1)
 }
 .container{
     width: 1158px;
@@ -136,4 +136,7 @@ header{
 }
 .title{
     padding: 188px 0;
+}
+.section{
+    padding: 120px 0;
 }
