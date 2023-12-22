@@ -57,7 +57,7 @@ header{
 .web-logo{
     color: rgba(77, 90, 229, 1);
 }
-.title{
+.container{
     font-size: 56px;
     letter-spacing: 2%;
     line-height: 60px;
@@ -66,7 +66,8 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 188px 0;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 .service{
     height: 56px;
@@ -79,6 +80,7 @@ header{
     line-height: 24px;
     letter-spacing: 4%;
     cursor: pointer;
+    min-width: 169px;
 }
 .service:hover{
     background-color: rgba(64, 75, 191, 1);
