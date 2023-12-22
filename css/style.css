@@ -71,12 +71,14 @@ header{
 .service{
     height: 56px;
     width: 169px;
+    border: none;
     border-radius: 4px;
     background-color: rgba(77, 90, 229, 1);
     padding: 16px, 32px, 16px, 32px;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 4%;
+    cursor: pointer;
 }
 .service:hover{
     background-color: rgba(64, 75, 191, 1);
@@ -117,6 +119,7 @@ header{
 }
 .title-text{
     color: white;
+    max-width: 496px;
 }
 .advantages{
     display: flex;
@@ -129,7 +132,6 @@ header{
 .advantages-list{
     width: 264px;
 }
-.contact{
-    display: flex;
-    gap: 40px;
+.section{
+    padding: 188px 0;
 }
