@@ -154,3 +154,10 @@ header{
     justify-content: center;
     align-items: center;
 }
+.name{
+    text-align: center;
+    margin-bottom: 8px;
+}
+.card-p{
+    text-align: center;
+}
