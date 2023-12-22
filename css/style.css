@@ -81,13 +81,13 @@ header{
 .service:hover{
     background-color: rgba(64, 75, 191, 1);
 }
-.address-menu{
+.address{
     display: flex;
     flex-direction: row;
     gap: 40px;
     list-style-type: none;
 }
-.address-menu :hover{
+.address :hover{
     color: rgba(64, 75, 191, 1);
 }
 .team{
