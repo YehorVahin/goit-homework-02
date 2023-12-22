@@ -15,6 +15,11 @@ header{
     display: flex;
     margin: 0 auto;
     padding: 0 15px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 .menu{
     display: flex;
@@ -56,15 +61,6 @@ header{
 }
 .web-logo{
     color: rgba(77, 90, 229, 1);
-}
-.container{
-    background: rgba(46, 47, 66, 1);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-top: 188px;
-    padding-bottom: 188px;
 }
 .service{
     height: 56px;
@@ -136,7 +132,21 @@ header{
 }
 .title{
     padding: 188px 0;
+    background: rgba(46, 47, 66, 1);
 }
 .section{
     padding: 120px 0;
+}
+.footer-link{
+    display: inline-block;
+    margin-bottom: 16px;
+}
+.footer-text{
+    max-width: 264px;
+}
+.footer{
+    padding: 100px 0;
+}
+.footer-container{
+    margin-left: 156px;
 }
