@@ -15,11 +15,6 @@ header{
     display: flex;
     margin: 0 auto;
     padding: 0 15px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-top: 188px;
-    padding-bottom: 188px;
 }
 .menu{
     display: flex;
@@ -61,6 +56,14 @@ header{
 }
 .web-logo{
     color: rgba(77, 90, 229, 1);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 .service{
     height: 56px;
