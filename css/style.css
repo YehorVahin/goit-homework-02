@@ -175,6 +175,8 @@ header .container{
 }
 .footer .logo{
     color: rgba(244, 244, 253, 1);
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .section-team .container{
     display: flex;
