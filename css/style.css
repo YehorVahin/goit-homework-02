@@ -206,3 +206,7 @@ header .container{
     border: 1px solid #e7e9fc;
     padding: 32px 16px
 }
+.portfolio{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
