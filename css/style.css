@@ -204,9 +204,19 @@ header .container{
 }
 .port-text{
     border: 1px solid #e7e9fc;
-    padding: 32px 16px
+    padding: 32px 16px;
+    margin-bottom: 8px;
+    border-top: none;
 }
 .portfolio{
     padding-top: 120px;
     padding-bottom: 120px;
+}
+.name-app{
+    margin-bottom: 72px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
 }
