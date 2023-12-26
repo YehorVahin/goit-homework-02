@@ -79,13 +79,13 @@ header .container{
 .service:hover{
     background-color: rgba(64, 75, 191, 1);
 }
-.address{
+.address-menu{
     display: flex;
     flex-direction: row;
     gap: 40px;
     list-style-type: none;
 }
-.address :hover{
+.address-menu :hover{
     color: rgba(64, 75, 191, 1);
 }
 .card-menu{
