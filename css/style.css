@@ -181,7 +181,7 @@ header .container{
     flex-direction: column;
     margin-left: 156px;
 }
-.footer .logo{
+.footer .container .logo{
     color: rgba(244, 244, 253, 1);
     display: inline-block;
     margin-bottom: 16px;
