@@ -219,7 +219,7 @@ header .container{
     padding-bottom: 120px;
 }
 .name-app{
-    margin-bottom: 72px;
+    margin-bottom: 8px;
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
@@ -228,4 +228,7 @@ header .container{
 }
 .advantages-section .container .ad-title{
     visibility: hidden;
+}
+.portfolio-title{
+    margin-bottom: 72px;
 }
