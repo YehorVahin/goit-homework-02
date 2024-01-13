@@ -220,3 +220,6 @@ header .container{
     letter-spacing: 0.02em;
     text-align: left;
 }
+.advantages-section .container .ad-title{
+    visibility: hidden;
+}
