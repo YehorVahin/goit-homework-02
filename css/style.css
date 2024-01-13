@@ -125,12 +125,15 @@ header .container{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 30px;
+    gap: 24px;
     align-items: center;
     list-style-type: none;
 }
 .advantages-list{
-    width: 264px;
+    width: calc((100% - 72px) / 4);
+}
+.advantages-title{
+    margin-bottom: 8px;
 }
 .title{
     padding: 188px 0;
