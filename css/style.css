@@ -1,7 +1,7 @@
 body{
     background-color: rgba(255, 255, 255, 1);
     font-family: "Roboto", sans-serif;
-    
+    width: 100%;
 }
 img{
     display: block;
@@ -195,6 +195,10 @@ header .container{
 .portfolio .container{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 156px;
+    margin-right: 156px;
 }
 .port{
     display: flex;
@@ -206,7 +210,7 @@ header .container{
 }
 .port-card{
     padding: 32px 0;
-    width: calc((100%-48px) / 3);
+    flex-basis: calc((100% - 48px) / 3);
 }
 .port-text{
     border: 1px solid #e7e9fc;
