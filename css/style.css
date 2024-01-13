@@ -110,10 +110,19 @@ header .container{
     box-shadow: 0px 1px 1px 0px rgba(46, 47, 66, 0.16);
     box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
-.team-title{
-    font-size: 36px;
-    margin-bottom: 72px;
-}
+.team-title .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 .title-text{
     color: white;
     max-width: 496px;
