@@ -121,6 +121,9 @@ header .container{
     text-align: center;
     font-size: 56px;
 }
+.advantages-section{
+    padding: 120px 0;
+}
 .advantages{
     display: flex;
     flex-direction: row;
