@@ -24,8 +24,7 @@ header .container{
 }
 .nav-menu{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    
     gap: 40px;
     list-style-type: none;
     margin-right: 76px;
