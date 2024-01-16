@@ -84,7 +84,7 @@ header .container{
 }
 .address-menu{
     display: flex;
-   
+    flex-direction: row;
     gap: 40px;
     list-style-type: none;
 }
