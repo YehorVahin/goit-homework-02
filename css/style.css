@@ -90,6 +90,8 @@ header .container{
     flex-direction: row;
     gap: 40px;
     list-style-type: none;
+}
+ul{
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
