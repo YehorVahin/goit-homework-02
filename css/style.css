@@ -44,6 +44,9 @@ header .container{
 .nav-link:active{
     text-decoration: underline;
 }
+.contacts{
+    margin-left: auto;
+}
 .contact-link{
     text-decoration: none;
     color: rgba(67, 68, 85, 1);
@@ -87,6 +90,8 @@ header .container{
     flex-direction: row;
     gap: 40px;
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 .address-menu :hover{
     color: rgba(64, 75, 191, 1);
