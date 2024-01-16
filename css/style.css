@@ -90,7 +90,7 @@ header .container{
     flex-direction: row;
     gap: 40px;
     list-style-type: none;
-    margin: 0;
+    margin-right: 0;
     padding: 0;
 }
 .address-menu :hover{
