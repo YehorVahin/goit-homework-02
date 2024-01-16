@@ -176,17 +176,15 @@ ul{
     padding: 100px 0;
     background: rgba(46, 47, 66, 1);
 }
-.section-team{
-    background: rgba(244, 244, 253, 1);
-    height: 732px;
-    
-    padding: 120px 0;
-}
 .team-div{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: rgba(244, 244, 253, 1);
+    height: 732px;
+    padding: 120px 0;
+    margin: 0 auto;
 }
 .name{
     text-align: center;
