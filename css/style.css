@@ -1,59 +1,13 @@
-*,
-*::before,
-*::after{
-    padding: 0;
-    margin: 0;
-    border: 0;
-    box-sizing: border-box;
-}
-img{
-    vertical-align: top;
-}
-a{
-    text-decoration: none;
-}
-ul,
-ol,
-li{
-    list-style: none;
-}
 body{
     background-color: #434455;
     font-family: "Roboto", sans-serif;
     width: 100%;
 }
-.wrapper{
-    padding: 30px;
-}
-.image-slider{
-    padding: 30px 0 70px 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-.swiper-container{
-    height: 600px;
-}
-.image-slider_image{
-    text-align: center;
-}
-.image-slider_image img{
-    max-width: 100%;
-}
-.swiper-button-next{
-    position: relative;
-}
-.swiper-button-prev{
-    position: relative;
-}
-.title img{
-    height: 500px;
-    width: 700px;
-    max-width: 100%;
+img{
+    display: block;
 }
 .header{
     border-bottom: 1px solid #e7e9fc;
-    background-color: #E7E9FC;
 }
 header .container{
     display: flex;
@@ -63,49 +17,244 @@ header .container{
     justify-content: space-between;
     align-items: center;
 }
-.head-menu{
+.menu{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
-}
-.items{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 40px;
-    list-style-type: none;
-    margin-right: 76px;
-}
-.title{
-    background-color: #2e2f42;
-    margin-left: 25%;
-    margin-right: 25%;
-}
-footer{
-    background-color: #2e2f42;
-}
-.link-logo{
-    color: #4D5AE5;
-    font-size: 30px;
-}
-.sec-logo{
-    color: #2E2F42;
-    font-size: 30px;
 }
 .nav-menu{
     display: flex;
     flex-direction: row;
-    align-items: center;
-}
-.item a{
-    display: flex;
-    flex-direction: row;
     justify-content: center;
     gap: 40px;
     list-style-type: none;
     margin-right: 76px;
 }
-.item a:hover{
+.menu-link a{
+    text-decoration: none;
+    color: rgba(46, 47, 66, 1);
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    padding: 24px 0;
+}
+.menu-link a:hover{
     color: rgba(64, 75, 191, 1);
+}
+.nav-link:active{
+    text-decoration: underline;
+}
+.contacts{
+    margin-left: auto;
+}
+.contact-link{
+    text-decoration: none;
+    color: rgba(67, 68, 85, 1);
+}
+.logo{
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+    color: rgba(46, 47, 66, 1);
+    font-size: 24px;
+    margin-right: 76px;
+}
+.web-logo{
+    color: rgba(77, 90, 229, 1);
+}
+.title .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 188px;
+    padding-bottom: 188px;
+}
+.service{
+    height: 56px;
+    width: 169px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(77, 90, 229, 1);
+    padding: 16px, 32px, 16px, 32px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 4%;
+    cursor: pointer;
+    min-width: 169px;
+}
+.service:hover{
+    background-color: rgba(64, 75, 191, 1);
+}
+.address-menu{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    list-style-type: none;
+}
+ul{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+.address-menu :hover{
+    color: rgba(64, 75, 191, 1);
+}
+.card-menu{
+    display: flex;
+    gap: 24px;
+}
+.card{
+    flex-basis: calc((100% - 72px) / 4);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 0 0 4px 4px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 1px 1px 0px rgba(46, 47, 66, 0.16);
+    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+.ad-title{
+    margin-bottom: 72px;
+}
+.visually-hidden{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.title-text{
+    color: white;
+    max-width: 496px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 56px;
+}
+.advantages-section{
+    padding: 120px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.advantages{
+    display: flex;
+    gap: 24px;
+}
+.advantages-list{
+    width: calc((100% - 72px) / 4);
+}
+.advantages-title{
+    margin-bottom: 8px;
+}
+.title{
+    padding: 188px 0;
+    background: rgba(46, 47, 66, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section{
+    padding: 120px 0;
+}
+.footer-link{
+    display: inline-block;
+    margin-bottom: 16px;
+}
+.footer-text{
+    max-width: 264px;
+    color: rgba(244, 244, 253, 1);
+}
+.footer{
+    padding: 100px 0;
+    background: rgba(46, 47, 66, 1);
+}
+.team-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(244, 244, 253, 1);
+    height: 732px;
+    padding: 120px 0;
+    margin: 0 auto;
+}
+.name{
+    text-align: center;
+    margin-bottom: 8px;
+}
+.card-p{
+    text-align: center;
+}
+.card-one{
+    padding: 32px 0;
+}
+.footer .container{
+   padding-left: 156px;
+}
+.footer .container .logo{
+    color: rgba(244, 244, 253, 1);
+    display: inline-block;
+    margin-bottom: 16px;
+}
+.section-team .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.port{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    row-gap: 48px;
+    column-gap: 24px;
+    flex-wrap: wrap;
+}
+.port-card{
+    padding: 32px 0;
+    width: calc((100% - 48px) / 3);
+}
+.port-text{
+    border: 1px solid #e7e9fc;
+    padding: 32px 16px;
+    margin-bottom: 8px;
+    border-top: none;
+}
+.portfolio{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name-app{
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+.advantages-section .container .ad-title{
+    visibility: hidden;
+}
+.portfolio-title{
+    margin-bottom: 72px;
+}
+.container{
+    width: 1158px;
 }
