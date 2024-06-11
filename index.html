@@ -1,142 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/style.css">
-    <script src="script.js" defer></script>
     <meta charset="UTF-8">
-    <meta name="description" content="homework">
-    <title>Webstudio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Dora Jewel</title>
 </head>
 <body>
-    <header class="header">
-        <div class="container header-cont">
-        <nav class="menu">
-        <a href="./index.html" class="logo"><span class="web-logo">Web</span>Studio</a>
-            <ul class="nav-menu">
-                <li class="menu-link"><a class="nav-link" href="">Studio</a></li>
-                <li class="menu-link"><a href="">Portfolio</a></li>
-                <li class="menu-link"><a href="">Contacts</a></li>
-            </ul>
-            <address class="contacts">
+    <header class="header"><div class="container header-content">
+                <nav class="nav-menu">
+                    <a href="" class="link-logo">Dora<span class="sec-logo">Jewel</span></a>
+                    <ul class="items">
+                        <li class="item"><a href="" class="link-menu">Обручки</a></li>
+                        <li class="item"><a href="" class="link-menu">Каблучки</a></li>
+                        <li class="item"><a href="" class="link-menu">Браслети</a></li>
+                        <li class="item"><a href="" class="link-menu">Підвіси</a></li>
+                        <li class="item"><a href="" class="link-menu">Ланцюжки</a></li>
+                        <li class="item"><a href="" class="link-menu">Сережки</a></li>
+                    </ul>
+                    <address class="item contacts">
                 <ul class="address-menu">
-                    <li class="add-link"><a class="contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li class="add-link"><a class="contact-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-                </ul>
-            </address>
-        </nav>
-        </div>
+                    <li class="add-link"><a class="contact-link" href="dora.jewel.24@gmail.com">dora.jewel.24@gmail.com</a></li>
+                    <li class="add-link"><a class="contact-link" href="tel:+380935115785">+38 (093) 511-57-85</a></li>
+                </ul></address>
+                </nav>
+    </div>
     </header>
     <main>
         <section class="title">
-        <div class="container">
-        <h1 class="title-text">Effective Solutions for Your Business
-        </h1>
-        <button type="button" class="service">Order Service</button>
-        </div>
-        </section>
-        <section class="advantages-section">
-            <div class="container">
-                <h2 class="ad-title"></h2>
-            <ul class="advantages">
-                <li class="advantages-list"><h3 class="advantages-title">Strategy</h3>
-                <p>Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
-                </li>
-                <li class="advantages-list"><h3 class="advantages-title">Punctuality</h3>
-                <p>Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
-                </li>
-                <li class="advantages-list"><h3 class="advantages-title">Diligence</h3>
-                <p>Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
-                </li>
-                <li class="advantages-list"><h3 class="advantages-title">Technologies</h3>
-                <p>Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
-                </li>
-            </ul>
+            <div class="image-slider swiper-container">
+                <div class="swiper-button-prev"></div>
+                <div class="image-slider__wrapper swiper-wrapper">
+                    <div class="image-slider__slide swiper-slide">
+                        <div class="image-slider_image"><img src="images/1.jpg" alt=""></div>
+                    </div>
+                    <div class="image-slider_slide swiper-slide">
+                        <div class="image-slider_image"><img src="images/2.jpg" alt=""></div>
+                    </div>
+                    <div class="image-slider_slide swiper-slide">
+                        <div class="image-slider_image"><img src="images/3.jpg" alt=""></div>
+                    </div>
+                    <div class="image-slider_slide swiper-slide">
+                        <div class="image-slider_image"><img src="images/4.jpg" alt=""></div>
+                    </div>
+                    <div class="image-slider_slide swiper-slide">
+                        <div class="image-slider_image"><img src="images/5.jpg" alt=""></div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                
+                <div class="swiper-pagination"></div>
             </div>
         </section>
-        <section class="section-team">
-            <div class="container team-div">
-            <h2 class="visually-hidden">Our Team</h2>
-            <ul class="card-menu">
-                <li class="card"><img src="./images/img.jpg" alt="teammate" width="264">
-                    <div class="card-one">
-                    <h3 class="name">Mark Guerrero</h3>
-                    <p class="card-p">Product Designer</p>
-                    </div>
-                </li>
-                <li class="card"><img src="./images/imgone.jpg" alt="teammateone" width="264">
-                    <div class="card-one">
-                    <h3 class="name">Tom Ford</h3>
-                    <p class="card-p">Frontend Developer</p>
-                    </div>
-                </li>
-                <li class="card"><img src="./images/imgtwo.jpg" alt="teammatetwo" width="264">
-                    <div class="card-one">
-                    <h3 class="name">Camila Garcia</h3>
-                    <p class="card-p">Marketing</p>
-                    </div>
-                </li>
-                <li class="card"><img src="./images/imgthree.jpg" alt="teammatethree" width="264">
-                    <div class="card-one">
-                    <h3 class="name">Daniel Wilson</h3>
-                    <p class="card-p">UI Designer</p>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        </section>
-        <section class="portfolio">
-            <div class="container">
-                <h2 class="portfolio-title">Our Portfolio</h2>
-                <ul class="port">
-                    <li class="port-card">
-                    <img class="port-img" src="./images/img-port.jpg" alt="app-one" width="356">
-                    <div class="port-text"><h2 class="name-app">Banking app</h2>
-                    <p class="app">App</p>
-                    </div>
-                    </li>
-                    <li class="port-card">
-                    <img class="port-img" src="./images/img-port-one.jpg" alt="app-two" width="357">
-                    <div class="port-text"><h2 class="name-app">Cashless payment</h2>
-                    <p class="app">Marketing</p>
-                    </div>
-                    </li>
-                    <li class="port-card">
-                    <img class="port-img" src="./images/img-port-two.jpg" alt="app-three" width="356">
-                    <div class="port-text"><h2 class="name-app">Meditation App</h2>
-                    <p class="app">App</p>
-                    </div>
-                    </li>
-                    <li class="port-card">
-                    <img class="port-img" src="./images/img-port-three.jpg" alt="app-four" width="356">
-                    <div class="port-text"><h2 class="name-app">Taxi Service</h2>
-                    <p class="app">Marketing</p>
-                    </div>
-                    </li>
-                    <li class="port-card">
-                    <img class="port-img" src="./images/img-port-four.jpg" alt="app-five" width="356">
-                    <div class="port-text"><h2 class="name-app">Screen Illustration</h2>
-                    <p class="app">Design</p>
-                    </div>
-                    </li>
-                    <li class="port-card">
-                    <img class="port-img" src="./images/img-port-five.jpg" alt="app-six" width="356">
-                    <div class="port-text"><h2 class="name-app">Online Cources</h2>
-                    <p class="app">Marketing</p>
-                    </div>
-                    </li>
-                </ul>
-            </div>
+        <section class="catalog">
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
         </section>
     </main>
-    <footer class="footer">
-        <div class="container">
-            <a href="./index.html" class="logo"><span class="web-logo">Web</span>Studio</a>
-        <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
-        </div>
-    </footer>
+    <footer></footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script/script.js"></script>
+    
 </body>
 </html>
